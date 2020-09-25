@@ -1,4 +1,4 @@
-package Question;
+package Questions;
 
 /*
 * 打印100以内的素数

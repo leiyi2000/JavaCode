@@ -1,3 +1,5 @@
+package Questions;
+
 /*
 * 判断一个数是否是素数
 * */

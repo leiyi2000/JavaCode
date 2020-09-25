@@ -1,4 +1,4 @@
-package Question;
+package Questions;
 /*
 * 求前50个素数合
 * */

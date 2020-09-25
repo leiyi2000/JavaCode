@@ -1,3 +1,5 @@
+package Questions;
+
 /*
 * 求10的阶乘
 * */

@@ -1,3 +1,5 @@
+package Questions;
+
 /*
 * 求出1000内的所有水仙花数
 * */

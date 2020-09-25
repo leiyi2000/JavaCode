@@ -1,4 +1,4 @@
-package Question;
+package Questions;
 
 /*
 * 求100以内的素数之和

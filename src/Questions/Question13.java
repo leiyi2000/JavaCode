@@ -1,3 +1,5 @@
+package Questions;
+
 /*
  * 1-100偶数和
  * */

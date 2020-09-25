@@ -1,6 +1,10 @@
+package Questions;
+
 /*
 * 求1-100数的和
 * */
+
+
 public class Question11 {
     public static void main(String[] args) {
         int n = 100, sum = 0;

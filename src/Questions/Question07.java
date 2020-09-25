@@ -1,9 +1,17 @@
+package Questions;
+
 /*
-* 求分段函数的值
+* 7、求下列函数中y的值。（较易）
+*   y=10     (x=0)
+*   y=3x+5   (x>0)
+*   y=x-2     (x<0)
 * */
+
+
 public class Question07 {
     public static void main(String[] args) {
-        int x = 10, y;
+        int x = 10;
+        int y;
 
         if (x == 0){
             y = 10;
@@ -13,6 +21,6 @@ public class Question07 {
             y = x - 2;
         }
 
-        System.out.println(y);
+        System.out.println("输入x: "+x +"\n结果y: "+y);
     }
 }

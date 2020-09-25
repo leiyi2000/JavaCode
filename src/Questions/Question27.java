@@ -1,4 +1,4 @@
-package Question;
+package Questions;
 /*
 * 求101-200内的素数，打印出来
 * */

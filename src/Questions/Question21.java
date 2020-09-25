@@ -1,4 +1,4 @@
-package Question;
+package Questions;
 
 /*
 * 判断一个数是否是完全数

@@ -1,3 +1,5 @@
+package Questions;
+
 /*
 * 1000内能被5整除的数之和
 * */
