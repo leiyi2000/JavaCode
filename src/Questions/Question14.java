@@ -5,11 +5,13 @@ package Questions;
 * */
 public class Question14 {
     public static void main(String[] args) {
-        int n = 1000, sum = 0;
-        while (n > 0){
-            sum += n;
-            n -= 5;
+        int n = 1000;
+        int sum = 0;
+
+        for (int i = 0; i < n ; i++) {
+            sum += i % 5 == 0 ? i: 0;
         }
-        System.out.println(sum);
+
+        System.out.println("1000内的能被5整除的和为："+ sum);
     }
 }

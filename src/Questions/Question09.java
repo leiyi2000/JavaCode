@@ -10,11 +10,11 @@ package Questions;
 public class Question09 {
     public static void main(String[] args) {
         int year = 2020;
-        boolean flag;
+        boolean isLeapYear;
 
-        flag = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+        isLeapYear = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
 
-        if (flag){
+        if (isLeapYear){
             System.out.println(year+"是闰年");
         }else {
             System.out.println(year+"不是闰年");

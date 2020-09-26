@@ -17,7 +17,7 @@ public class Question07 {
             y = 10;
         }else if (x < 0){
             y = 3 * x + 5;
-        }else {
+        } else {
             y = x - 2;
         }
 
