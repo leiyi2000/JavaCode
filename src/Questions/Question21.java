@@ -8,6 +8,16 @@ package Questions;
 public class Question21 {
     public static void main(String[] args) {
         int num = 8128;
+
+        if (isPerfectNumber(num)){
+            System.out.println(num + "是完全数");
+        } else {
+            System.out.println(num + "不是完全数");
+        }
+
+    }
+
+    public static boolean isPerfectNumber(int num){
         int tmp = 1;
 
         for (int i = 2; i < (int)(Math.sqrt(num)) + 1; i++) {
@@ -17,12 +27,7 @@ public class Question21 {
             }
         }
 
-        if (num != 1 && tmp == num){
-            System.out.println(num + "是完全数");
-        } else {
-            System.out.println(num + "不是完全数");
-        }
-
+        return num != 1 && tmp == num;
     }
 
 }
